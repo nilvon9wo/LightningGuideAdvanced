@@ -1,0 +1,11 @@
+<aura:component access="global" implements="flexipage:availableForAllPageTypes" >
+	<aura:attribute access="private" name="messageToSend" type="String" default="" />
+	<aura:attribute access="private" name="messageReceived" type="String" default="" />
+	<aura:attribute access="private" name="errorMessage" type="String" default="" />
+	
+	<div style="height: 100%">
+		<lightning:container aura:id="LCER_RealtySPA" src="/resource/LCER_RealtySPA/index.html"
+			onmessage="{!c.handleMessage}" onerror="{!c.handleError}"
+		/>	
+	</div>
+</aura:component>

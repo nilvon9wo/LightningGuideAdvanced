@@ -1,0 +1,5 @@
+({
+	greet : function() {
+		lcGreet();
+	}
+})
