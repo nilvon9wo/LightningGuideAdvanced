@@ -1,5 +1,5 @@
-<aura:component>
-	<c:OO_SubBody>
+<aura:component >
+	<c:OO_SubBody >
 		Body value
 	</c:OO_SubBody>
 </aura:component>
