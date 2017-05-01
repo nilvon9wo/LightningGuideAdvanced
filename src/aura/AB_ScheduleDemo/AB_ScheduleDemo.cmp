@@ -1,4 +1,4 @@
-<aura:component>
+<aura:component >
 	<c:ETLC_ApexBridge aura:id="ApexBridge" />
 	
 	<aura:attribute name="demoTopic" type="String" />

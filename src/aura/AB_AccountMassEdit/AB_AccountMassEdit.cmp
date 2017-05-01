@@ -1,4 +1,4 @@
-<aura:component>
+<aura:component >
 	<c:ETLC_ApexBridge aura:id="ApexBridge" />
 	<aura:attribute name="accountList" type="Account[]" access="private" />
 	<aura:handler name="init" value="{!this}" action="{!c.doInit}" />

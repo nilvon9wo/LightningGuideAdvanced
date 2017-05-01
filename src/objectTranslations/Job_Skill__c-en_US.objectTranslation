@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Job Skill</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Job Skills</value>
+    </caseValues>
+    <fields>
+        <label><!-- Job Posting --></label>
+        <name>Job_Posting__c</name>
+        <relationshipLabel><!-- Job Skills --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Skill --></label>
+        <name>Skill__c</name>
+        <relationshipLabel><!-- Job Skills --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
