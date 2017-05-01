@@ -1,4 +1,4 @@
-<aura:component>
+<aura:component >
 	<ltng:require scripts="/resource/LC_SampleJs" afterScriptsLoaded="{!c.greet}" />
 	<div id="container" />	
 </aura:component>

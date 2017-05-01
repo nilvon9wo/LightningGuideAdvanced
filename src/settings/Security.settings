@@ -14,7 +14,7 @@
     </passwordPolicies>
     <sessionSettings>
         <disableTimeoutWarning>false</disableTimeoutWarning>
-        <enableCSPOnEmail>true</enableCSPOnEmail>
+        <enableCSPOnEmail>false</enableCSPOnEmail>
         <enableCSRFOnGet>true</enableCSRFOnGet>
         <enableCSRFOnPost>true</enableCSRFOnPost>
         <enableCacheAndAutocomplete>true</enableCacheAndAutocomplete>
@@ -30,5 +30,6 @@
         <lockSessionsToDomain>true</lockSessionsToDomain>
         <lockSessionsToIp>false</lockSessionsToIp>
         <securityCentralKillSession>true</securityCentralKillSession>
+        <sessionTimeout>TwoHours</sessionTimeout>
     </sessionSettings>
 </SecuritySettings>
